@@ -18,7 +18,8 @@ The following roadmaps will guide you through learning and experimenting with th
     - [ ] UI Development with taiga UI and Tinkoff UI Kit
 
 2. **Backend Development:**
-    - [ ] Express & Fastify
+    - [ ] Express
+    - [ ] Fastify
     - [ ] NestJS for Scalable Applications
     - [ ] Microservices Architecture
 
