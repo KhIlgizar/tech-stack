@@ -72,7 +72,7 @@ cd tech-stack
 - ESLint & Stylelint: Maintain code quality using linters for JavaScript and CSS.
 
 
-# Структура репозитория:
-- Каждая технология или проект имеет свою папку.
-- Общие зависимости (например, конфигурации) могут быть вынесены в отдельную папку `shared`, что облегчает поддержку.
-- Для каждого проекта можно использовать отдельные `README.md` файлы, в которых описано назначение и шаги для запуска и тестирования.
+# Repository structure:
+- Each technology or project has its own folder..
+- Common dependencies (such as configurations) can be moved to a separate `shared` folder, making maintenance easier.
+- For each project, separate `README.md` files can be created, which describe the purpose and steps for launching and testing.
