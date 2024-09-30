@@ -1,24 +1,33 @@
 {
-  "name": "express-fastify",
+  "name": "fastify",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "watch": "nodemon"
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
   },
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -w -l info -P app.js"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "fastify": "^5.0.0"
+    "@fastify/autoload": "^6.0.0",
+    "@fastify/jwt": "^9.0.1",
+    "@fastify/sensible": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "fastify-cli": "^7.0.1",
+    "fastify-jwt": "^4.1.3",
+    "fastify-plugin": "^5.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
-    "@types/node": "^22.7.4",
+    "@stylistic/eslint-plugin-js": "^2.8.0",
     "eslint": "^9.11.1",
-    "globals": "^15.9.0",
-    "nodemon": "^3.1.7",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.6.2",
-    "typescript-eslint": "^8.7.0"
+    "globals": "^15.9.0"
   }
 }
